@@ -5,7 +5,7 @@
 <body><main>
 <h1>FanDeClip Uploader</h1>
 <p>FanDeClip Uploader est un outil personnel qui prépare des YouTube Shorts à partir de clips Twitch
-francophones, puis les publie sur une seule chaîne YouTube : celle de son propriétaire.</p>
+francophones, puis les publie sur une seule chaîne YouTube et un seul compte TikTok : ceux de son propriétaire.</p>
 <p><strong>Cet outil utilise les Services API YouTube</strong> (YouTube Data API v3, méthode <code>videos.insert</code>).
 En l'utilisant, vous acceptez les <a href="https://www.youtube.com/t/terms">Conditions d'utilisation de YouTube</a>.</p>
 <h2>Fonctionnement</h2>
@@ -15,6 +15,8 @@ En l'utilisant, vous acceptez les <a href="https://www.youtube.com/t/terms">Cond
 <li>Le propriétaire de la chaîne valide ou rejette chaque vidéo à la main, depuis un bot Telegram privé.</li>
 <li>Seules les vidéos validées sont envoyées sur la chaîne via l'API YouTube Data v3 (<code>videos.insert</code>).</li>
 </ol>
+<p>Pour TikTok, l'outil utilise Login Kit et la Content Posting API : les vidéos validées sont déposées
+dans les brouillons TikTok du propriétaire, qui les publie lui-même depuis l'application TikTok.</p>
 <p>L'outil n'est pas proposé au public : aucun autre utilisateur ne peut s'y connecter.</p>
 <footer><a href="privacy.html">Règles de confidentialité</a> · <a href="terms.html">Conditions d'utilisation</a> ·
 <a href="https://policies.google.com/privacy">Règles de confidentialité de Google</a> ·

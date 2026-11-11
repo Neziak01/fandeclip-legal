@@ -16,9 +16,16 @@ YouTube sur laquelle il publie. Il n'a pas d'autres utilisateurs.</p>
 Elle sert uniquement à envoyer sur la chaîne du propriétaire les vidéos qu'il a validées (titre, description,
 tags, date de publication). L'outil ne lit pas les vidéos, commentaires, abonnés ni aucune autre donnée du compte,
 et n'accède aux données d'aucun autre utilisateur.</p>
+<h2>Données TikTok utilisées</h2>
+<p>Pour TikTok, l'outil utilise Login Kit et la Content Posting API avec les autorisations
+<code>user.info.basic</code> et <code>video.upload</code>. Elles servent uniquement à identifier le compte TikTok
+du propriétaire et à déposer les vidéos qu'il a validées dans ses brouillons TikTok, où il les publie lui-même depuis
+l'application TikTok. L'outil ne lit ni les vidéos, ni les abonnés, ni les messages, et n'accède aux données d'aucun
+autre utilisateur TikTok. L'accès peut être retiré dans l'application TikTok (Paramètres, Sécurité, Applications autorisées).
+Les <a href="https://www.tiktok.com/legal/terms-of-service">Conditions d'utilisation de TikTok</a> s'appliquent.</p>
 <h2>Stockage et partage</h2>
-<p>Le jeton d'accès OAuth est enregistré uniquement sur l'ordinateur personnel du propriétaire. Il n'est envoyé
-à aucun serveur tiers, ni partagé, vendu ou utilisé à des fins publicitaires. L'outil n'utilise pas de cookies.</p>
+<p>Les jetons d'accès OAuth (Google et TikTok) sont enregistrés uniquement sur l'ordinateur personnel du propriétaire. Ils ne sont envoyés
+à aucun serveur tiers, ni partagés, vendus ou utilisés à des fins publicitaires. L'outil n'utilise pas de cookies.</p>
 <h2>Suppression et révocation</h2>
 <p>L'accès peut être retiré à tout moment depuis la page des paramètres de sécurité Google :
 <a href="https://security.google.com/settings/security/permissions">security.google.com/settings/security/permissions</a>.
