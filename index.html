@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FanDeClip Uploader</title><link rel="stylesheet" href="style.css"></head>
+<body><main>
+<h1>FanDeClip Uploader</h1>
+<p>FanDeClip Uploader est un outil personnel qui prépare des YouTube Shorts à partir de clips Twitch
+francophones, puis les publie sur une seule chaîne YouTube : celle de son propriétaire.</p>
+<h2>Fonctionnement</h2>
+<ol>
+<li>Les clips Twitch publics les plus vus sont récupérés via l'API Twitch.</li>
+<li>Chaque clip est recadré en vertical, sous-titré, et le streamer d'origine est crédité à l'image et dans la description.</li>
+<li>Le propriétaire de la chaîne valide ou rejette chaque vidéo à la main, depuis un bot Telegram privé.</li>
+<li>Seules les vidéos validées sont envoyées sur la chaîne via l'API YouTube Data v3 (<code>videos.insert</code>).</li>
+</ol>
+<p>L'outil n'est pas proposé au public : aucun autre utilisateur ne peut s'y connecter.</p>
+<footer><a href="privacy.html">Règles de confidentialité</a> · <a href="terms.html">Conditions d'utilisation</a> ·
+Contact : <a href="mailto:theo.bosset45@gmail.com">theo.bosset45@gmail.com</a></footer>
+</main></body></html>
